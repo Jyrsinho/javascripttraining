@@ -47,5 +47,25 @@ function fizzBuzz() {
     }
 }
 
-printTriangle();
-fizzBuzz();
+
+function printChessBoard(size) {
+
+    white = " "
+    black = "#"
+    printable = '';
+
+    for (let i = 0; i <size ; i++) {
+        for (let j = 0; j <size ; j++) {
+            if (j % 2  === 0 && i % 2 === 0 || j % 2 === 1 && i % 2 === 1) {
+                printable = printable + white;
+            }else {
+                printable = printable + black
+            }
+        }
+        console.log(printable);
+        printable = '';
+    }
+
+}
+
+printChessBoard(4);
