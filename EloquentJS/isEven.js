@@ -10,7 +10,8 @@ function isEven(number) {
     if (number ===1) return false;
     //recursive step
 
-     return isEven(number - 2);
+    if (number > 0) return isEven(number - 2);
+    else if (number < 0) return isEven(number + 2);
 }
 
 module.exports = isEven;
