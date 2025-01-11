@@ -5,8 +5,8 @@
  * @return smallest argument
  */
 function min(a, b) {
-    if (a < b) return a;
-    return b;
+
+    return a < b ? a : b;
 }
 
 module.exports = min;
