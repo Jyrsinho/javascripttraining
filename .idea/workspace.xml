@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="FizzBuzz">
+    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="completed chssboard">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EloquentJS/exercises1.js" beforeDir="false" afterPath="$PROJECT_DIR$/EloquentJS/exercises1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Jyrsinho"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Jyrsinho/javascripttraining.git",
+    "accountId": "cc62268c-edcc-45c7-97e7-cb621919c836"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 3
@@ -62,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736455036054</updated>
-      <workItem from="1736455037097" duration="3993000" />
+      <workItem from="1736455037097" duration="5019000" />
     </task>
     <task id="LOCAL−00001" summary="FizzBuzz">
       <option name="closed" value="true" />
@@ -78,7 +90,14 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1736456102198</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="completed chssboard">
+      <option name="closed" value="true" />
+      <created>1736530458960</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1736530458960</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FizzBuzz" />
-    <option name="LAST_COMMIT_MESSAGE" value="FizzBuzz" />
+    <MESSAGE value="completed chssboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed chssboard" />
   </component>
 </project>
