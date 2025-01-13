@@ -1,4 +1,4 @@
-const countChar = require('./countChar')
+const countChar = require('../countChar')
 
 
 test('countChar should count zero k chars in string auto',  ()=> {

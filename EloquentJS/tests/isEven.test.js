@@ -1,4 +1,4 @@
-const isEven = require('./isEven')
+const isEven = require('../isEven')
 
 test('isEven should return true for 0',  ()=> {
     expect(isEven(0)).toBe(true);

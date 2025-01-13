@@ -1,5 +1,4 @@
-const range = require('./range');
-const isEven = require("./isEven");
+const range = require('../range');
 
 
 test('range should return array containing zero when given zero and zero', () => {
@@ -16,4 +15,12 @@ test("range should return array containing integers from 2 to seven", () => {
 
 test("range should return array containing integers from -2 to 2", () => {
     expect(range(-2, 2)).toStrictEqual([-2,-1,0,1,2]);
+})
+
+test("range should return array of even numbers from 0 to 10 when given 0, 10 and 2", ()  => {
+    expect(range(0, 10, 2)).toStrictEqual([0, 2,4,6,8,10]);
+})
+
+test("range should return array of negative even numbers from 0 to -10", () => {
+    expect(range(0, -10, 2)).toStrictEqual([0, -2, -4,-6,-8,-10]);
 })

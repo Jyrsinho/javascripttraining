@@ -1,4 +1,4 @@
-const min = require('./min')
+const min = require('../min')
 
 test('min should return 2 for 2 and 4',  ()=> {
     expect(min(2,4)).toBe(2);
