@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="DeepEqual works iteratively">
-      <change afterPath="$PROJECT_DIR$/EloquentJS/flatten.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EloquentJS/tests/flatten.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="first test for flatten function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EloquentJS/flatten.js" beforeDir="false" afterPath="$PROJECT_DIR$/EloquentJS/flatten.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EloquentJS/tests/flatten.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/EloquentJS/tests/flatten.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +166,7 @@
       <updated>1736455036054</updated>
       <workItem from="1736455037097" duration="5019000" />
       <workItem from="1736615231371" duration="19807000" />
-      <workItem from="1736964562979" duration="660000" />
+      <workItem from="1736964562979" duration="1976000" />
     </task>
     <task id="LOCAL−00001" summary="FizzBuzz">
       <option name="closed" value="true" />
@@ -253,7 +252,14 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1736781575129</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="first test for flatten function">
+      <option name="closed" value="true" />
+      <created>1736965391092</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1736965391092</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +277,8 @@
     <MESSAGE value="range handles negative values" />
     <MESSAGE value="reverse and reverseInPlace functions added and tested" />
     <MESSAGE value="DeepEqual works iteratively" />
-    <option name="LAST_COMMIT_MESSAGE" value="DeepEqual works iteratively" />
+    <MESSAGE value="first test for flatten function" />
+    <option name="LAST_COMMIT_MESSAGE" value="first test for flatten function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

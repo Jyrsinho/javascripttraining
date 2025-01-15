@@ -4,8 +4,13 @@
  * @param arrays
  */
 function flatten(arrays) {
+    if (arrays.length === 0) return [];
+    if (arrays.length === 1) return arrays;
 
-    return [0];
+    return  arrays.reduce((previous, next) => {
+        return previous.concat(next);
+    });
+
 
 }
 
