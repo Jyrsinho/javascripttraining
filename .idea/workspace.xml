@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="completed chssboard">
+    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="DeepEqual works iteratively">
+      <change afterPath="$PROJECT_DIR$/EloquentJS/flatten.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EloquentJS/tests/flatten.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -13,25 +15,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Jyrsinho"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Jyrsinho&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Jyrsinho/javascripttraining.git",
-    "accountId": "cc62268c-edcc-45c7-97e7-cb621919c836"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Jyrsinho/javascripttraining.git&quot;,
+    &quot;accountId&quot;: &quot;cc62268c-edcc-45c7-97e7-cb621919c836&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2rPJz3puOi4Bk60Wd9K8gtj5iur" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,6 +49,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Jest.All Tests.executor": "Run",
+    "Jest.countChar.test.js.executor": "Run",
+    "Jest.deepEqual.test.js.executor": "Run",
+    "Jest.exercises1.test.js.executor": "Run",
+    "Jest.flatten.test.js.executor": "Run",
+    "Jest.isEven.test.js.executor": "Run",
+    "Jest.min should return 1 for 2 and 1.executor": "Run",
+    "Jest.min.test.js.executor": "Run",
+    "Jest.range should return array containing integers from -2 to 2.executor": "Run",
+    "Jest.range should return array of even numbers from 0 to 10 when given 0, 10 and 2.executor": "Debug",
+    "Jest.range.test.js.executor": "Run",
+    "Jest.reverse.test.js.executor": "Run",
+    "Jest.reverseInPlace.test.js.executor": "Run",
+    "Jest.sum.test.js.executor": "Debug",
+    "Node.js Test Runner.deepEqual.test.js.executor": "Run",
+    "Node.js Test Runner.isEven.test.js.executor": "Run",
+    "Node.js Test Runner.min.test.js.executor": "Run",
+    "Node.js Test Runner.reverse.test.js.executor": "Run",
+    "Node.js Test Runner.reverseInPlace.test.js.executor": "Run",
     "Node.js.exercises1.js.executor": "Run",
     "Node.js.index.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -49,15 +77,78 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/jyrihuhtala/projektit/harjoituksia/javascript/node_modules/jest",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "ts.external.directory.path": "/Users/jyrihuhtala/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EloquentJS/tests" />
+      <recent name="$PROJECT_DIR$/EloquentJS/tests/unittests" />
       <recent name="$PROJECT_DIR$/EloquentJS" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="min should return 1 for 2 and 1" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/EloquentJS/min.test.js" />
+      <test-names>
+        <test-name value="min should return 1 for 2 and 1" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="range should return array containing integers from -2 to 2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/EloquentJS/tests/range.test.js" />
+      <test-names>
+        <test-name value="range should return array containing integers from -2 to 2" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="range should return array of even numbers from 0 to 10 when given 0, 10 and 2" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/EloquentJS/tests/range.test.js" />
+      <test-names>
+        <test-name value="range should return array of even numbers from 0 to 10 when given 0, 10 and 2" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.All Tests" />
+      <item itemvalue="Jest.min should return 1 for 2 and 1" />
+      <item itemvalue="Jest.range should return array containing integers from -2 to 2" />
+      <item itemvalue="Jest.range should return array of even numbers from 0 to 10 when given 0, 10 and 2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.range should return array of even numbers from 0 to 10 when given 0, 10 and 2" />
+        <item itemvalue="Jest.range should return array containing integers from -2 to 2" />
+        <item itemvalue="Jest.min should return 1 for 2 and 1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -75,6 +166,8 @@
       <option name="presentableId" value="Default" />
       <updated>1736455036054</updated>
       <workItem from="1736455037097" duration="5019000" />
+      <workItem from="1736615231371" duration="19807000" />
+      <workItem from="1736964562979" duration="660000" />
     </task>
     <task id="LOCAL−00001" summary="FizzBuzz">
       <option name="closed" value="true" />
@@ -97,7 +190,70 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1736530458960</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="tests and function for min">
+      <option name="closed" value="true" />
+      <created>1736619329084</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1736619329085</updated>
+    </task>
+    <task id="LOCAL−00005" summary="refactored min function to use ?">
+      <option name="closed" value="true" />
+      <created>1736619547651</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1736619547651</updated>
+    </task>
+    <task id="LOCAL−00006" summary="isEven handles all but negative numbers">
+      <option name="closed" value="true" />
+      <created>1736620484365</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1736620484365</updated>
+    </task>
+    <task id="LOCAL−00007" summary="isEven handles also negative numbers">
+      <option name="closed" value="true" />
+      <created>1736620570187</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1736620570187</updated>
+    </task>
+    <task id="LOCAL−00008" summary="simple character counter">
+      <option name="closed" value="true" />
+      <created>1736621192123</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1736621192123</updated>
+    </task>
+    <task id="LOCAL−00009" summary="created and tested range() - function">
+      <option name="closed" value="true" />
+      <created>1736762268480</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1736762268480</updated>
+    </task>
+    <task id="LOCAL−00010" summary="range handles negative values">
+      <option name="closed" value="true" />
+      <created>1736763958278</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1736763958278</updated>
+    </task>
+    <task id="LOCAL−00011" summary="reverse and reverseInPlace functions added and tested">
+      <option name="closed" value="true" />
+      <created>1736765545854</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1736765545854</updated>
+    </task>
+    <task id="LOCAL−00012" summary="DeepEqual works iteratively">
+      <option name="closed" value="true" />
+      <created>1736781575129</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1736781575129</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +262,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FizzBuzz" />
     <MESSAGE value="completed chssboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed chssboard" />
+    <MESSAGE value="tests and function for min" />
+    <MESSAGE value="refactored min function to use ?" />
+    <MESSAGE value="isEven handles all but negative numbers" />
+    <MESSAGE value="isEven handles also negative numbers" />
+    <MESSAGE value="simple character counter" />
+    <MESSAGE value="created and tested range() - function" />
+    <MESSAGE value="range handles negative values" />
+    <MESSAGE value="reverse and reverseInPlace functions added and tested" />
+    <MESSAGE value="DeepEqual works iteratively" />
+    <option name="LAST_COMMIT_MESSAGE" value="DeepEqual works iteratively" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/EloquentJS/tests/sum.test.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/EloquentJS/tests/deepEqual.test.js</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
