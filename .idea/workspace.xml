@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="flatten handles the happy path">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EloquentJS/flatten.js" beforeDir="false" afterPath="$PROJECT_DIR$/EloquentJS/flatten.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EloquentJS/tests/flatten.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/EloquentJS/tests/flatten.test.js" afterDir="false" />
-    </list>
+    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="flatten handles also empty nested arrays and arrays with only one nested array" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +48,7 @@
     "Jest.countChar.test.js.executor": "Run",
     "Jest.deepEqual.test.js.executor": "Run",
     "Jest.exercises1.test.js.executor": "Run",
-    "Jest.flatten.test.js.executor": "Debug",
+    "Jest.flatten.test.js.executor": "Run",
     "Jest.isEven.test.js.executor": "Run",
     "Jest.min should return 1 for 2 and 1.executor": "Run",
     "Jest.min.test.js.executor": "Run",
@@ -168,7 +164,7 @@
       <updated>1736455036054</updated>
       <workItem from="1736455037097" duration="5019000" />
       <workItem from="1736615231371" duration="19807000" />
-      <workItem from="1736964562979" duration="2793000" />
+      <workItem from="1736964562979" duration="3651000" />
     </task>
     <task id="LOCAL−00001" summary="FizzBuzz">
       <option name="closed" value="true" />
@@ -268,7 +264,14 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1736966683633</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="flatten handles also empty nested arrays and arrays with only one nested array">
+      <option name="closed" value="true" />
+      <created>1736967575627</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1736967575628</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +291,8 @@
     <MESSAGE value="DeepEqual works iteratively" />
     <MESSAGE value="first test for flatten function" />
     <MESSAGE value="flatten handles the happy path" />
-    <option name="LAST_COMMIT_MESSAGE" value="flatten handles the happy path" />
+    <MESSAGE value="flatten handles also empty nested arrays and arrays with only one nested array" />
+    <option name="LAST_COMMIT_MESSAGE" value="flatten handles also empty nested arrays and arrays with only one nested array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
