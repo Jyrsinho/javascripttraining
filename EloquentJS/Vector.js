@@ -1,4 +1,3 @@
-
 class Vector {
     constructor(x, y) {
         this.x = x;
@@ -17,7 +16,5 @@ class Vector {
         newVector.y = this.y - vector.y;
         return newVector;
     }
-
-
-
 }
+module.exports = Vector;
