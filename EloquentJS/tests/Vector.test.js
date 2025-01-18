@@ -1,5 +1,4 @@
 const Vector = require('../Vector')
-const vector1 = require("../Vector");
 
 
 
