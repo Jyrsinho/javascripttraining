@@ -29,5 +29,10 @@ class Vector {
         newVector.y = this.y - otherVector.y;
         return newVector;
     }
+
+    get length() {
+        return Math.sqrt(this.x ** 2 + this.y **2);
+
+    }
 }
 module.exports = Vector;

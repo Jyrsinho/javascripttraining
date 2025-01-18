@@ -32,3 +32,13 @@ test("should minus two vectors together", () => {
     expect(vector3.y).toBe(50);
 } )
 
+test("should have a getter for length", () => {
+    let vector = new Vector(0,0);
+    expect(vector.length).toBe(0);
+})
+
+test('should calculate the length of a vector', () => {
+    let vector = new Vector(100,100);
+    expect(vector.length).toBeCloseTo(141.42,2);
+})
+
