@@ -20,7 +20,7 @@ class Group {
      * @param newElement
      */
     add(newElement) {
-        for (let element in this.group) {
+        for (let element of this.group) {
             if (newElement === element) {
                 return false;
             }
@@ -29,6 +29,3 @@ class Group {
     }
 }
 module.exports = Group;
-
-let myGroup = new Group();
-console.log(myGroup);
