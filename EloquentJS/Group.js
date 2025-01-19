@@ -27,5 +27,20 @@ class Group {
         }
         this.group.push(newElement);
     }
+
+    /**
+     * removes an element from the group if it is a member. Else return false
+     * @param element to be removed
+     */
+    delete(elementToBeRemoved) {
+        let index = 0;
+        for (let element of this.group) {
+            if (element === elementToBeRemoved) {
+                return this.group.splice(index, 1);
+            }
+            index++;
+        }
+        return false;
+    }
 }
 module.exports = Group;
