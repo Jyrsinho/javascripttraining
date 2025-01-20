@@ -2,6 +2,7 @@ const Group = require('../Group')
 
 
 
+
 test('should construct an empty group', () => {
     let testGroup = new Group();
     expect(testGroup.group).toEqual([]);
@@ -65,5 +66,18 @@ test("static from method creates a group out of array", () => {
     let testArray = [1, 2, 3, 4, 5];
     let testGroup = Group.from(testArray);
     expect(testGroup.group).toEqual(testArray);
+
+})
+
+test("group is iterable", () => {
+    let testGroup = new Group();
+    testGroup.add(2);
+    testGroup.add(3);
+    testGroup.add(4);
+    let goalArray = [];
+    for (let element of testGroup) {
+        goalArray.push(element);
+    }
+    expect(goalArray.length).toBe(3);
 
 })

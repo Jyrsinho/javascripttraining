@@ -9,10 +9,13 @@ Use the === operator, or something equivalent such as indexOf, to determine whet
 Give the class a static from method that takes an iterable object as its argument and creates a group that contains all the values produced by iterating over it.
  */
 
+const GroupIterator = require("./GroupIterator");
+
 class Group {
     constructor() {
         this.group = [];
     }
+
 
     /**
      * adds a value to the group (but only if it isn’t already a member)
@@ -69,6 +72,13 @@ class Group {
         }
         return group;
 }
+
+    [Symbol.iterator] () {
+        const groupIterator = new GroupIterator(this);
+        return groupIterator;
+
+    }
+
 }
 
 
