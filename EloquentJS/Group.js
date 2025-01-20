@@ -42,5 +42,22 @@ class Group {
         }
         return false;
     }
+
+    /**
+     * has returns a Boolean value indicating whether
+     *  its argument is a member of the group
+     * @param searchedElement element to be searched from the group
+     * @returns {boolean} true if searchedElement is in the group, false if not
+     */
+    has(searchedElement) {
+
+        for (let element of this.group) {
+            if (element === searchedElement) {
+                return true;
+            }
+        }
+
+        return false;
+    }
 }
 module.exports = Group;
