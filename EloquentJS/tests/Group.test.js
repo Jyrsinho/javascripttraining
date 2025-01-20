@@ -60,3 +60,10 @@ test('should return false if element to be searched is not in the group', () => 
     testGroup.add(3);
     expect(testGroup.has(4)).toBe(false);
 })
+
+test("static from method creates a group out of array", () => {
+    let testArray = [1, 2, 3, 4, 5];
+    let testGroup = Group.from(testArray);
+    expect(testGroup.group).toEqual(testArray);
+
+})

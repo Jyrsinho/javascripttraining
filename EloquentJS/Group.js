@@ -59,5 +59,19 @@ class Group {
 
         return false;
     }
+
+    //Give the class a static from method that takes an iterable object as its argument
+    // and creates a group that contains all the values produced by iterating over it.
+    static from(iterable) {
+        let group = new Group();
+        for (let element of iterable) {
+            group.add(element);
+        }
+        return group;
 }
+}
+
+
 module.exports = Group;
+
+
