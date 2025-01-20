@@ -1,6 +1,7 @@
 const Group = require('../Group')
 
 
+
 test('should construct an empty group', () => {
     let testGroup = new Group();
     expect(testGroup.group).toEqual([]);
@@ -51,4 +52,11 @@ test("should return true if element to be searched is in the group", () => {
     testGroup.add(3);
     testGroup.add(4);
     expect(testGroup.has(3)).toBe(true);
+})
+
+test('should return false if element to be searched is not in the group', () => {
+    let testGroup = new Group();
+    testGroup.add(2);
+    testGroup.add(3);
+    expect(testGroup.has(4)).toBe(false);
 })
