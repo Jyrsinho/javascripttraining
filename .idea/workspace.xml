@@ -46,55 +46,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Jest.All Tests.executor": "Run",
-    "Jest.Group.test.js.executor": "Run",
-    "Jest.Vector.test.js.executor": "Run",
-    "Jest.countChar.test.js.executor": "Run",
-    "Jest.deepEqual.test.js.executor": "Run",
-    "Jest.exercises1.test.js.executor": "Run",
-    "Jest.flatten.test.js.executor": "Run",
-    "Jest.isEven.test.js.executor": "Run",
-    "Jest.min should return 1 for 2 and 1.executor": "Run",
-    "Jest.min.test.js.executor": "Run",
-    "Jest.range should return array containing integers from -2 to 2.executor": "Run",
-    "Jest.range should return array of even numbers from 0 to 10 when given 0, 10 and 2.executor": "Debug",
-    "Jest.range.test.js.executor": "Run",
-    "Jest.reverse.test.js.executor": "Run",
-    "Jest.reverseInPlace.test.js.executor": "Run",
-    "Jest.sum.test.js.executor": "Debug",
-    "Node.js Test Runner.Group.test.js.executor": "Run",
-    "Node.js Test Runner.deepEqual.test.js.executor": "Run",
-    "Node.js Test Runner.flatten.test.js.executor": "Run",
-    "Node.js Test Runner.isEven.test.js.executor": "Run",
-    "Node.js Test Runner.min.test.js.executor": "Run",
-    "Node.js Test Runner.reverse.test.js.executor": "Run",
-    "Node.js Test Runner.reverseInPlace.test.js.executor": "Run",
-    "Node.js.Group.js.executor": "Run",
-    "Node.js.Vector.js.executor": "Run",
-    "Node.js.app.js.executor": "Run",
-    "Node.js.every.js.executor": "Run",
-    "Node.js.exercises1.js.executor": "Run",
-    "Node.js.flatten.js.executor": "Debug",
-    "Node.js.index.js.executor": "Run",
-    "Node.js.laskuri.js.executor": "Run",
-    "Node.js.myLoop.js.executor": "Run",
-    "Node.js.suttu.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/Users/jyrihuhtala/projektit/harjoituksia/javascript/node_modules/jest",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "/Users/jyrihuhtala/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Jest.All Tests.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.Group.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.Vector.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.countChar.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.deepEqual.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.exercises1.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.flatten.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.isEven.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.min should return 1 for 2 and 1.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.min.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.range should return array containing integers from -2 to 2.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.range should return array of even numbers from 0 to 10 when given 0, 10 and 2.executor&quot;: &quot;Debug&quot;,
+    &quot;Jest.range.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.reverse.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.reverseInPlace.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Jest.sum.test.js.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js Test Runner.Group.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js Test Runner.deepEqual.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js Test Runner.flatten.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js Test Runner.isEven.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js Test Runner.min.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js Test Runner.reverse.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js Test Runner.reverseInPlace.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Group.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Vector.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.app.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.every.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.exercises1.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.flatten.js.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.laskuri.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.myLoop.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.suttu.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/jyrihuhtala/projektit/harjoituksia/javascript/node_modules/jest&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/jyrihuhtala/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/EloquentJS/tests" />
@@ -186,7 +186,8 @@
       <workItem from="1737472170848" duration="234000" />
       <workItem from="1737482080374" duration="642000" />
       <workItem from="1737656627234" duration="5807000" />
-      <workItem from="1738869025384" duration="2233000" />
+      <workItem from="1738869025384" duration="2305000" />
+      <workItem from="1739378518698" duration="950000" />
     </task>
     <task id="LOCAL−00001" summary="FizzBuzz">
       <option name="closed" value="true" />
@@ -468,7 +469,14 @@
       <option name="presentableId" value="LOCAL−00040" />
       <updated>1738869109967</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL−00041" summary="Jotain harjoituksia ohjelmistoarkkitehtuurit kurssille">
+      <option name="closed" value="true" />
+      <created>1738911743492</created>
+      <option name="number" value="LOCAL−00041" />
+      <option name="presentableId" value="LOCAL−00041" />
+      <updated>1738911743492</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
