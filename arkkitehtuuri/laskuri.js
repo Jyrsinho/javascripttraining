@@ -30,6 +30,14 @@ switch (laskutoimitus) {
         tulos = luku1 - luku2;
         virhe = "";
         break;
+        case "*":
+            tulos = luku1 * luku2;
+            virhe = "";
+            break;
+            case "/":
+                tulos = luku1 / luku2;
+                virhe = "";
+                break;
     default:
             tulos = luku1 + luku2;
             virhe = "En tunnistanut laskutoimitusta,"
