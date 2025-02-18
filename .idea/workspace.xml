@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="laskuri aliOhjelmilla 6">
-      <change afterPath="$PROJECT_DIR$/EloquentJS/ExceptionsExercises.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkkitehtuuri/laskuriAliOhjelmilla.js" beforeDir="false" afterPath="$PROJECT_DIR$/arkkitehtuuri/laskuriAliOhjelmilla.js" afterDir="false" />
+    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="exception handling exercises from eloquent JS">
+      <change beforePath="$PROJECT_DIR$/EloquentJS/ExceptionsExercises.js" beforeDir="false" afterPath="$PROJECT_DIR$/EloquentJS/ExceptionsExercises.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +189,7 @@
       <workItem from="1738869025384" duration="2305000" />
       <workItem from="1739378518698" duration="4285000" />
       <workItem from="1739462550821" duration="5488000" />
-      <workItem from="1739874890939" duration="636000" />
+      <workItem from="1739874890939" duration="964000" />
     </task>
     <task id="LOCAL−00001" summary="FizzBuzz">
       <option name="closed" value="true" />
@@ -508,14 +506,20 @@
       <option name="presentableId" value="LOCAL−00045" />
       <updated>1739464190724</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL−00046" summary="exception handling exercises from eloquent JS">
+      <option name="closed" value="true" />
+      <created>1739875565639</created>
+      <option name="number" value="LOCAL−00046" />
+      <option name="presentableId" value="LOCAL−00046" />
+      <updated>1739875565639</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="writin my own higher order looping function" />
     <MESSAGE value="myLoop can print values from 3 to zero" />
     <MESSAGE value="myLoop can print values from 3 to 1" />
     <MESSAGE value="working implementaition of myLoop" />
@@ -540,7 +544,8 @@
     <MESSAGE value="Jotain harjoituksia ohjelmistoarkkitehtuurit kurssille" />
     <MESSAGE value="laskuri aliOhjelmilla" />
     <MESSAGE value="laskuri aliOhjelmilla 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="laskuri aliOhjelmilla 6" />
+    <MESSAGE value="exception handling exercises from eloquent JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="exception handling exercises from eloquent JS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
