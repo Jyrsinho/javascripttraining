@@ -1,36 +1,80 @@
 const prompt = require('prompt-sync')();
 
 function paaOhjelma() {
-    let validiVastaus = false;
+    let jatketaan = true;
+    while(jatketaan) {
 
-    while (validiVastaus === false) {
-        let luku1 = kysySyote("Anna luku 1 >");
-        validiVastaus = tarkistaSyote(luku1);
-    }
-    let validiVastaus2 = false;
-    while (validiVastaus2 === false) {
-        let luku2 = kysySyote("Anna luku 2 >");
-        validiVastaus2 = tarkistaSyote(luku2);
-    }
-    let laskutoimitus = kysySyote("Anna laskutoimitus >");
+        let luvut = [];
+        let laskutoimitus;
 
-    let tulos = suoritaLaskutoimitus(laskutoimitus, luku1, luku2);
+        for (let i = 1; i < 3; i++) {
+            luvut.push(kysyLuku(i));
+        }
+
+        laskutoimitus = kysyLaskutoimitus();
+        let tulos = valitseLaskutoimitus(laskutoimitus, luvut);
+
+        console.log("Vastaus on: ")
+        console.log(tulos)
+
+        let jatketaanko = prompt("Jatketaanko. Syötä Y jos jatketaan, muuten lopettaan >");
+        jatketaan = (jatketaanko.toUpperCase() === "y".toUpperCase());
+    }
 }
 
 
-function tarkistaSyote(syote) {
-    if (Number.isNaN(syote)) {
-        return false;
+function kysyLuku(i) {
+    while (true) {
+         let luku = prompt("Anna luku " +i + " >");
+         if (tarkistaSyote(luku)) {
+             return Number(luku);
+         }
+        console.log("Virheellinen syöte. Anna numero.");
     }
-    return true;
+}
+
+function tarkistaSyote(luku) {
+    return !isNaN(Number(luku));
+}
+
+function kysyLaskutoimitus() {
+    while (true) {
+        let laskutoimitus = prompt("Anna laskutoimitus > ")
+        if (laskutoimitus === "+" || laskutoimitus === "-" || laskutoimitus === "*" || laskutoimitus === "/") {
+            return laskutoimitus;
+        }
+        console.log("Virheellinen laskutoimitus. Anna +,-,* tai / -merkki.")
+    }
+}
+
+let yhteenlasku = (luvut) => {
+    return luvut[0] + luvut[1];
+}
+
+let vahennyslasku = (luvut) => {
+    return luvut[0] - luvut[1];
 
 }
 
+let kertolasku = (luvut) => {
+    return luvut[0] * luvut[1];
+}
 
-function kysySyote(viesti) {
-    vastaus = prompt(viesti);
+let jakolasku = (luvut) => {
+    if (luvut[1] ===0) {
+        return("nollalla ei voi jakaa")
+    }
+    return luvut[0] / luvut[1];
+}
 
-    return vastaus;
+
+function valitseLaskutoimitus(laskutoimitus, luvut) {
+    switch (laskutoimitus) {
+        case "+": return yhteenlasku(luvut);
+        case "-": return vahennyslasku(luvut);
+        case "*": return kertolasku(luvut);
+        case "/": return jakolasku(luvut);
+    }
 }
 
 
