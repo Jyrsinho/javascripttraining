@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="fetch-api harjoituksia">
-      <change afterPath="$PROJECT_DIR$/EloquentJS/formsExers/interface.html" afterDir="false" />
+    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="forms harjoituksia">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EloquentJS/forms.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/EloquentJS/formsExers/forms.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EloquentJS/formsExers/interface.html" beforeDir="false" afterPath="$PROJECT_DIR$/EloquentJS/formsExers/interface.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,14 +200,7 @@
       <workItem from="1739378518698" duration="4285000" />
       <workItem from="1739462550821" duration="5488000" />
       <workItem from="1739874890939" duration="8371000" />
-      <workItem from="1739949543571" duration="6748000" />
-    </task>
-    <task id="LOCAL−00002" summary="FizzBuzz">
-      <option name="closed" value="true" />
-      <created>1736456102198</created>
-      <option name="number" value="LOCAL−00002" />
-      <option name="presentableId" value="LOCAL−00002" />
-      <updated>1736456102198</updated>
+      <workItem from="1739949543571" duration="7068000" />
     </task>
     <task id="LOCAL−00003" summary="completed chssboard">
       <option name="closed" value="true" />
@@ -546,14 +538,20 @@
       <option name="presentableId" value="LOCAL−00050" />
       <updated>1739968299985</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL−00051" summary="forms harjoituksia">
+      <option name="closed" value="true" />
+      <created>1739969563397</created>
+      <option name="number" value="LOCAL−00051" />
+      <option name="presentableId" value="LOCAL−00051" />
+      <updated>1739969563398</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="working implementaition of myLoop" />
     <MESSAGE value="working implementaition for higher order function exercise that tests if an array's every element passes the given test" />
     <MESSAGE value="tried to find implementation for every using built in some function and de morgans laws - not working" />
     <MESSAGE value="Vector class to practice JS classes" />
@@ -578,7 +576,8 @@
     <MESSAGE value="exception handling exercises from eloquent JS" />
     <MESSAGE value="Eloquent JS error handling" />
     <MESSAGE value="fetch-api harjoituksia" />
-    <option name="LAST_COMMIT_MESSAGE" value="fetch-api harjoituksia" />
+    <MESSAGE value="forms harjoituksia" />
+    <option name="LAST_COMMIT_MESSAGE" value="forms harjoituksia" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
