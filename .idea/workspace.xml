@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="exception handling exercises from eloquent JS">
-      <change afterPath="$PROJECT_DIR$/EloquentJS/ExceptionsExercises/box.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/arkkitehtuuri/laskuriPiiputJaFiltterit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EloquentJS/ExceptionsExercises.js" beforeDir="false" afterPath="$PROJECT_DIR$/EloquentJS/ExceptionsExercises/reliableMultiply.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkkitehtuuri/laskuriAliOhjelmilla.js" beforeDir="false" afterPath="$PROJECT_DIR$/arkkitehtuuri/laskuriAliOhjelmilla.js" afterDir="false" />
+    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="Eloquent JS error handling">
+      <change afterPath="$PROJECT_DIR$/EloquentJS/forms.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +77,8 @@
     "Node.js.every.js.executor": "Run",
     "Node.js.exercises1.js.executor": "Run",
     "Node.js.flatten.js.executor": "Debug",
+    "Node.js.forms.js.executor": "Run",
+    "Node.js.forms.mjs.executor": "Run",
     "Node.js.index.js.executor": "Run",
     "Node.js.laskuri.js.executor": "Run",
     "Node.js.laskuriAliOhjelmilla.js.executor": "Run",
@@ -197,6 +195,7 @@
       <workItem from="1739378518698" duration="4285000" />
       <workItem from="1739462550821" duration="5488000" />
       <workItem from="1739874890939" duration="8371000" />
+      <workItem from="1739949543571" duration="4254000" />
     </task>
     <task id="LOCAL−00001" summary="FizzBuzz">
       <option name="closed" value="true" />
@@ -527,14 +526,20 @@
       <option name="presentableId" value="LOCAL−00047" />
       <updated>1739876069273</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL−00048" summary="Eloquent JS error handling">
+      <option name="closed" value="true" />
+      <created>1739950195306</created>
+      <option name="number" value="LOCAL−00048" />
+      <option name="presentableId" value="LOCAL−00048" />
+      <updated>1739950195306</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="myLoop can print values from 3 to zero" />
     <MESSAGE value="myLoop can print values from 3 to 1" />
     <MESSAGE value="working implementaition of myLoop" />
     <MESSAGE value="working implementaition for higher order function exercise that tests if an array's every element passes the given test" />
@@ -559,7 +564,8 @@
     <MESSAGE value="laskuri aliOhjelmilla" />
     <MESSAGE value="laskuri aliOhjelmilla 6" />
     <MESSAGE value="exception handling exercises from eloquent JS" />
-    <option name="LAST_COMMIT_MESSAGE" value="exception handling exercises from eloquent JS" />
+    <MESSAGE value="Eloquent JS error handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eloquent JS error handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
