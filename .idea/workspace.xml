@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="fetch-api harjoituksia">
+      <change afterPath="$PROJECT_DIR$/EloquentJS/formsExers/interface.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EloquentJS/forms.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/EloquentJS/forms.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EloquentJS/forms.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/EloquentJS/formsExers/forms.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -47,6 +49,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.interface.html.executor": "Run",
     "Jest.All Tests.executor": "Run",
     "Jest.Group.test.js.executor": "Run",
     "Jest.Vector.test.js.executor": "Run",
@@ -102,6 +106,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EloquentJS/formsExers" />
       <recent name="$PROJECT_DIR$/EloquentJS/ExceptionsExercises" />
       <recent name="$PROJECT_DIR$/EloquentJS/tests" />
       <recent name="$PROJECT_DIR$/EloquentJS/tests/unittests" />
@@ -196,14 +201,7 @@
       <workItem from="1739378518698" duration="4285000" />
       <workItem from="1739462550821" duration="5488000" />
       <workItem from="1739874890939" duration="8371000" />
-      <workItem from="1739949543571" duration="5197000" />
-    </task>
-    <task id="LOCAL−00001" summary="FizzBuzz">
-      <option name="closed" value="true" />
-      <created>1736456094241</created>
-      <option name="number" value="LOCAL−00001" />
-      <option name="presentableId" value="LOCAL−00001" />
-      <updated>1736456094242</updated>
+      <workItem from="1739949543571" duration="6748000" />
     </task>
     <task id="LOCAL−00002" summary="FizzBuzz">
       <option name="closed" value="true" />
@@ -541,7 +539,14 @@
       <option name="presentableId" value="LOCAL−00049" />
       <updated>1739966103490</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL−00050" summary="fetch-api harjoituksia">
+      <option name="closed" value="true" />
+      <created>1739968299985</created>
+      <option name="number" value="LOCAL−00050" />
+      <option name="presentableId" value="LOCAL−00050" />
+      <updated>1739968299985</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

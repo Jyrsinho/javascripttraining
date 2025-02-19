@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FunctionRunner</title>
+</head>
+<body>
+<textarea id="code">return "hi";</textarea>
+<button id="button">Run</button>
+<pre id="output"></pre>
+
+<script>
+    const textarea = document.getElementById("code");
+    let text = textarea.value;
+    const button = document.getElementById('button');
+    button.addEventListener('click', () => {
+
+        let myFunction = Function(textarea.value);
+        textarea.value = myFunction().toString();
+
+    });
+
+</script>
+</body>
+</html>
+
+<!-- Put a button next to a <textarea> field that, when pressed, uses the Function constructor
+we saw in Chapter 10 to wrap the text in a function and call it. Convert the return value of the
+function, or any error it raises, to a string and display it below the text field.
+-->
