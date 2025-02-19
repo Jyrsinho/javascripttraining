@@ -1,4 +1,6 @@
+const readline = require("readline");
 const prompt = require('prompt-sync')();
+
 
 function paaOhjelma() {
     let jatketaan = true;

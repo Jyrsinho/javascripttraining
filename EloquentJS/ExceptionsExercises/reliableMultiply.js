@@ -28,6 +28,9 @@ function reliableMultiply(a, b) {
     }
 }
 
+
+
+
 let result = reliableMultiply(8,8);
 console.log(result);
 
