@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="forms harjoituksia">
+    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="arkkitehtuuriharjoituksia">
+      <change afterPath="$PROJECT_DIR$/EloquentJS/gameOfLife/Creature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EloquentJS/gameOfLife/gameOfLife.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EloquentJS/gameOfLife/gameOfLife.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EloquentJS/formsExers/interface.html" beforeDir="false" afterPath="$PROJECT_DIR$/EloquentJS/formsExers/interface.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkkitehtuuri/laskuriAliOhjelmilla.js" beforeDir="false" afterPath="$PROJECT_DIR$/arkkitehtuuri/laskuriAliOhjelmilla.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkkitehtuuri/laskuriPiiputJaFiltterit.js" beforeDir="false" afterPath="$PROJECT_DIR$/arkkitehtuuri/laskuriPiiputJaFiltterit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -75,6 +80,7 @@
     "Node.js Test Runner.reverseInPlace.test.js.executor": "Run",
     "Node.js.ExceptionsExercises.js.executor": "Run",
     "Node.js.Group.js.executor": "Run",
+    "Node.js.Unnamed.executor": "Run",
     "Node.js.Vector.js.executor": "Run",
     "Node.js.app.js.executor": "Run",
     "Node.js.box.js.executor": "Run",
@@ -83,6 +89,7 @@
     "Node.js.flatten.js.executor": "Debug",
     "Node.js.forms.js.executor": "Run",
     "Node.js.forms.mjs.executor": "Run",
+    "Node.js.gameOfLife.js.executor": "Run",
     "Node.js.index.js.executor": "Run",
     "Node.js.laskuri.js.executor": "Run",
     "Node.js.laskuriAliOhjelmilla.js.executor": "Run",
@@ -157,11 +164,15 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
       <item itemvalue="Jest.min should return 1 for 2 and 1" />
       <item itemvalue="Jest.range should return array containing integers from -2 to 2" />
       <item itemvalue="Jest.range should return array of even numbers from 0 to 10 when given 0, 10 and 2" />
+      <item itemvalue="Node.js.Unnamed" />
     </list>
     <recent_temporary>
       <list>
@@ -200,14 +211,9 @@
       <workItem from="1739378518698" duration="4285000" />
       <workItem from="1739462550821" duration="5488000" />
       <workItem from="1739874890939" duration="8371000" />
-      <workItem from="1739949543571" duration="7068000" />
-    </task>
-    <task id="LOCAL−00003" summary="completed chssboard">
-      <option name="closed" value="true" />
-      <created>1736530458960</created>
-      <option name="number" value="LOCAL−00003" />
-      <option name="presentableId" value="LOCAL−00003" />
-      <updated>1736530458960</updated>
+      <workItem from="1739949543571" duration="9192000" />
+      <workItem from="1740068359148" duration="2205000" />
+      <workItem from="1740495691319" duration="5579000" />
     </task>
     <task id="LOCAL−00004" summary="tests and function for min">
       <option name="closed" value="true" />
@@ -545,14 +551,20 @@
       <option name="presentableId" value="LOCAL−00051" />
       <updated>1739969563398</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL−00052" summary="forms harjoituksia">
+      <option name="closed" value="true" />
+      <created>1739969886565</created>
+      <option name="number" value="LOCAL−00052" />
+      <option name="presentableId" value="LOCAL−00052" />
+      <updated>1739969886565</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="working implementaition for higher order function exercise that tests if an array's every element passes the given test" />
     <MESSAGE value="tried to find implementation for every using built in some function and de morgans laws - not working" />
     <MESSAGE value="Vector class to practice JS classes" />
     <MESSAGE value="plus method for vector" />
@@ -577,7 +589,8 @@
     <MESSAGE value="Eloquent JS error handling" />
     <MESSAGE value="fetch-api harjoituksia" />
     <MESSAGE value="forms harjoituksia" />
-    <option name="LAST_COMMIT_MESSAGE" value="forms harjoituksia" />
+    <MESSAGE value="arkkitehtuuriharjoituksia" />
+    <option name="LAST_COMMIT_MESSAGE" value="arkkitehtuuriharjoituksia" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
