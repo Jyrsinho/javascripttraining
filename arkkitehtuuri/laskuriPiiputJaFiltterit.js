@@ -17,19 +17,29 @@ import promptSync from 'prompt-sync';
 const prompt = promptSync();
 
 
-
+/**
+ * Tässä varmaan parasta heittää exception
+ * @param input
+ * @returns
+ */
 function validoi (input) {
-    if (isNaN(Number(input[0]))) {
-    return false;
-    } else {
-        return input;
+    if (isNaN(input[0]) || isNaN(input[1])) {
+        throw new Error('invalid input. Et syöttänyt numeroita');
     }
+    if (!["+", "-", "*", "/"].includes(input[2])) {
+        throw new Error("invalid input. Valitsemaasi laskutoimitusta ei ole olemassa");
+    }
+
+    return input;
 }
 
 
 function valitselasku (input) {
     if (input[2] === "+") {
         return yhteenlaske (input[0], input[1]);
+    }
+    if (input[2] === "-") {
+        return vahennyslaske(input[0], input[1]);
     }
 }
 
@@ -38,17 +48,10 @@ function yhteenlaske (a,b) {
     return a + b;
 }
 
-
-
-/**
- * Funktio ottaa vastaan x määrän parametreja ja luo niista putken, jota pitkin data prosessoidaan
- * @param func x määrä funktioita
- */
-const createPipeline = (...functions) => {
-    for (let fn of functions) {
-        return fn();
-    }
+function vahennyslaske (a,b) {
+    return a - b;
 }
+
 
 
 /* Reduce -versio
@@ -81,13 +84,17 @@ const createPipeline = (...functions) => {
 
 let vastaus = [];
 
-vastaus.push(prompt("Anna ensimmäinen luku > "));
-vastaus.push(prompt("Anna toinen luku > "));
-vastaus.push(prompt("Anna laskutoimitus > "));
+vastaus.push(Number(prompt("Anna ensimmäinen luku > ")));
+vastaus.push(Number(prompt("Anna toinen luku > ")));
+vastaus.push((prompt("Anna laskutoimitus > ")));
 
 let pipeline = createPipeline( validoi, valitselasku);
 
-console.log(pipeline(vastaus));
+try {
+    console.log(pipeline(vastaus));
+} catch (error) {
+    console.log(error.message);
+}
 
 
 
