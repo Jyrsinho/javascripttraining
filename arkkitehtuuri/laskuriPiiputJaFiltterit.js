@@ -54,15 +54,6 @@ function vahennyslaske (a,b) {
 
 
 
-/* Reduce -versio
-const createPipeline = (...functions) => {
-    return (input) => {
-        return functions.reduce((data, fn) => fn(data), input);
-    };
-};
-
- */
-
 
 const createPipeline = (...functions) => {
     return function(input) {
