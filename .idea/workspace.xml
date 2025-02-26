@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="laskuri -piiput ja filtterit tyyliin toteutettu">
-      <change afterPath="$PROJECT_DIR$/arkkitehtuuri/laskuriPiiputJaFiltteriOlioilla.js" afterDir="false" />
+    <list default="true" id="766df2e1-7273-4aca-9dcb-24518d65240f" name="Changes" comment="piiputJaFiltterit Olioilla">
+      <change afterPath="$PROJECT_DIR$/arkkitehtuuri/eventdrivenlaskuri.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arkkitehtuuri/laskuriPiiputJaFiltterit.js" beforeDir="false" afterPath="$PROJECT_DIR$/arkkitehtuuri/laskuriPiiputJaFiltterit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metodeja/reduce.js" beforeDir="false" afterPath="$PROJECT_DIR$/metodeja/reduce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arkkitehtuuri/laskuriPiiputJaFiltteriOlioilla.js" beforeDir="false" afterPath="$PROJECT_DIR$/arkkitehtuuri/laskuriPiiputJaFiltteriOlioilla.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
     "Node.js.index.js.executor": "Run",
     "Node.js.laskuri.js.executor": "Run",
     "Node.js.laskuriAliOhjelmilla.js.executor": "Run",
-    "Node.js.laskuriPiiputJaFiltteriOlioilla.js.executor": "Run",
+    "Node.js.laskuriPiiputJaFiltteriOlioilla.js.executor": "Debug",
     "Node.js.laskuriPiiputJaFiltterit.js.executor": "Run",
     "Node.js.myLoop.js.executor": "Run",
     "Node.js.reduce.js.executor": "Run",
@@ -221,14 +220,7 @@
       <workItem from="1739949543571" duration="9192000" />
       <workItem from="1740068359148" duration="2205000" />
       <workItem from="1740495691319" duration="6325000" />
-      <workItem from="1740579595685" duration="3729000" />
-    </task>
-    <task id="LOCAL−00006" summary="isEven handles all but negative numbers">
-      <option name="closed" value="true" />
-      <created>1736620484365</created>
-      <option name="number" value="LOCAL−00006" />
-      <option name="presentableId" value="LOCAL−00006" />
-      <updated>1736620484365</updated>
+      <workItem from="1740579595685" duration="4949000" />
     </task>
     <task id="LOCAL−00007" summary="isEven handles also negative numbers">
       <option name="closed" value="true" />
@@ -566,14 +558,20 @@
       <option name="presentableId" value="LOCAL−00054" />
       <updated>1740580800003</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL−00055" summary="piiputJaFiltterit Olioilla">
+      <option name="closed" value="true" />
+      <created>1740583810613</created>
+      <option name="number" value="LOCAL−00055" />
+      <option name="presentableId" value="LOCAL−00055" />
+      <updated>1740583810613</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Vector class to practice JS classes" />
     <MESSAGE value="plus method for vector" />
     <MESSAGE value="test for constructing vector" />
     <MESSAGE value="test for constructing vector with default values" />
@@ -598,7 +596,8 @@
     <MESSAGE value="forms harjoituksia" />
     <MESSAGE value="arkkitehtuuriharjoituksia" />
     <MESSAGE value="laskuri -piiput ja filtterit tyyliin toteutettu" />
-    <option name="LAST_COMMIT_MESSAGE" value="laskuri -piiput ja filtterit tyyliin toteutettu" />
+    <MESSAGE value="piiputJaFiltterit Olioilla" />
+    <option name="LAST_COMMIT_MESSAGE" value="piiputJaFiltterit Olioilla" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -625,9 +624,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/arkkitehtuuri/laskuriPiiputJaFiltteriOlioilla.js</url>
-          <line>34</line>
+          <line>81</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="12" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

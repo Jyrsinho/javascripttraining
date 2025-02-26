@@ -2,6 +2,9 @@
 
 // sitten meillä pitää olla pumppu, joka voi ottaa vastaan filttereitä ja ajaa ne yksi kerrallaan
 
+import promptSync from 'prompt-sync';
+const prompt = promptSync();
+
 
 class Pump {
 
@@ -32,26 +35,51 @@ class Filter{
     }
 }
 
-let pump = new Pump();
+function kysyNumerot() {
+    let ekaNumero = Number(prompt('Numero1 >'));
+    let tokaNumero = Number(prompt('Numero2 >'));
+    let laskutoimitus = prompt('Laskutoimitus >');
 
-
-let sumFilter = new Filter((input) => {
-   let sum = 0;
-    for (let i of input) {
-       sum += i;
-   }
-    return sum;
-});
-
-function timesTwo(input) {
-    return input * 2;
+    return [ekaNumero, tokaNumero, laskutoimitus];
 }
 
-let timesTwoFilter = new Filter(timesTwo);
 
-pump.addFilter(sumFilter);
-pump.addFilter(timesTwoFilter);
+function validoi (input) {
+    if (isNaN(input[0]) || isNaN(input[1])) {
+        throw new Error('invalid input. Et syöttänyt numeroita');
+    }
+    if (!["+", "-", "*", "/"].includes(input[2])) {
+        throw new Error("invalid input. Valitsemaasi laskutoimitusta ei ole olemassa");
+    }
+
+    return input;
+}
+
+function valitselasku (input) {
+    if (input[2] === "+") {
+        return yhteenlaske (input[0], input[1]);
+    }
+    if (input[2] === "-") {
+        return vahennyslaske(input[0], input[1]);
+    }
+}
+
+
+function yhteenlaske (a,b) {
+    return a + b;
+}
+
+function vahennyslaske (a,b) {
+    return a - b;
+}
+
+
+let pump = new Pump();
+
+pump.addFilter( new Filter(validoi));
+pump.addFilter( new Filter(valitselasku));
+
+console.log(pump.runPipeline(kysyNumerot()));
 
 
 
-console.log(pump.runPipeline([1,2,3]));
